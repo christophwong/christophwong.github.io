@@ -18,8 +18,12 @@ ul li {
 	margin: auto;
 }
 
-.introduction {
-	font-size: 1.35em;
+.lang-list {
+	font-size: 1em;
+}
+
+.biography{
+	font-size: 1.1em;
 	font-weight: 400;
 
 }
