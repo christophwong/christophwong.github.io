@@ -1,0 +1,33 @@
+
+.bottom-line {
+	border-bottom: 3px solid #ff4e4ee6;
+	padding: 0 0 1rem 0;
+}
+
+.horizontal-list {
+	font-size: 0.85rem;
+	display: flex;
+	flex-direction: row;
+}
+
+.horizontal-list > li {
+	flex: 1 1 100%;
+	text-align: center;
+}
+
+.horizontal-list > li:not(:first-child) {
+	border-left: 3px solid #ff4e4ee6;
+}
+
+header {
+	padding: 1.5rem 0;
+	display: flex;
+	flex-direction: column;
+}
+
+header > * {
+	margin: 0 0 1rem 0;
+	padding-bottom: 1 rem;
+	width: 100%;
+	text-align: center;
+}

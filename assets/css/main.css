@@ -1,5 +1,9 @@
-/*@import url(fontawesome.min.css);*/
+@import url(fontawesome.min.css);
+@import url(header.css);
 /*@import url(brands.min.css);*/
+
+.wip {display: none;}
+
 body {
 	background-color: #f5ff93b3;
 	font-family: Helvetica, sans-serif;
@@ -7,10 +11,8 @@ body {
 
 ul {
 	list-style: none;
-}
-
-ul li {
-	display: inline;
+	margin: 0;
+	padding: 0;
 }
 
 #main-content {
@@ -18,19 +20,9 @@ ul li {
 	margin: auto;
 }
 
-.lang-list {
-	font-size: 1em;
-}
-
 .biography{
 	font-size: 1.1em;
 	font-weight: 400;
-
-}
-
-.idea-list {
-	display: flex;
-	flex-direction: column;
 }
 
 a {
