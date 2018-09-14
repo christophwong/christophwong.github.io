@@ -31,6 +31,11 @@ a {
 	font-weight: 800;
 }
 
+a:hover {
+	color: #f5ff93b3;
+	background-color: #ff4e4ee6;
+}
+
 .foot-links {
 	text-decoration: none;
 	color: #000000;
