@@ -1,8 +1,5 @@
 @import url(fontawesome.min.css);
 @import url(header.css);
-/*@import url(brands.min.css);*/
-
-/*.wip {display: none;}*/
 
 body {
 	background-color: #f5ff93b3;
@@ -18,6 +15,10 @@ ul {
 #main-content {
 	width: 90%;
 	margin: auto;
+}
+
+.project:not(:last-child) {
+	border-bottom: 3px solid grey;
 }
 
 .biography{
