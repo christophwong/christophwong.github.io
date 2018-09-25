@@ -1,6 +1,6 @@
 
 .bottom-line {
-	border-bottom: 3px solid #ff4e4ee6;
+	border-bottom: 3px solid #ff4a1c;
 	padding: 0 0 1rem 0;
 }
 
@@ -16,7 +16,7 @@
 }
 
 .horizontal-list > li:not(:first-child) {
-	border-left: 3px solid #ff4e4ee6;
+	border-left: 3px solid #ff4a1c;
 }
 
 header {

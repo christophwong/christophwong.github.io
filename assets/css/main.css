@@ -2,8 +2,9 @@
 @import url(header.css);
 
 body {
-	background-color: #f5ff93b3;
+	background-color: #f9fdff;
 	font-family: Helvetica, sans-serif;
+	color: #002228;
 }
 
 ul {
@@ -18,7 +19,7 @@ ul {
 }
 
 .project:not(:last-child) {
-	border-bottom: 3px solid grey;
+	border-bottom: 3px solid #93b7be;
 }
 
 .biography{
@@ -33,8 +34,8 @@ a {
 }
 
 a:hover {
-	color: #f5ff93b3;
-	background-color: #ff4e4ee6;
+	color: #f9fdff;
+	background-color: #ff4a1c;
 }
 
 .foot-links {
