@@ -1,6 +1,14 @@
 @import url(fontawesome.min.css);
 @import url(header.css);
 
+/*color palette*/
+
+/*font-color: 002228
+  dark grey: 88a2aa
+  light border: 93b7be
+  background: f9fdff
+  accent border: ff4a1c */
+
 body {
 	background-color: #f9fdff;
 	font-family: Helvetica, sans-serif;
