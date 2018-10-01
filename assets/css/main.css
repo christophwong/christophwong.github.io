@@ -3,16 +3,22 @@
 
 /*color palette*/
 
-/*font-color: 002228
-  dark grey: 88a2aa
-  light border: 93b7be
-  background: f9fdff
-  accent border: ff4a1c */
+/*
+dark text: 070c02
+light text: 002930
+light blue: 93b7be
+background white: f9fdff
+accent orange: ff4a1c
+ */
 
 body {
 	background-color: #f9fdff;
 	font-family: Helvetica, sans-serif;
-	color: #002228;
+	color: #002930;
+}
+
+h2, h3 {
+	font-size: 1.2em;
 }
 
 ul {
@@ -39,7 +45,6 @@ ul {
 }
 
 .biography{
-	font-size: 1.1em;
 	font-weight: 400;
 }
 
@@ -56,7 +61,7 @@ a:hover {
 
 .foot-links {
 	text-decoration: none;
-	color: #000000;
+	color: #070c02;
 	font-size: 2em;
 	padding: 0 1em;
 }
