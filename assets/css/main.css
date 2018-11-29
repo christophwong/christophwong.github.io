@@ -19,6 +19,7 @@ body {
 
 h2, h3 {
 	font-size: 1.2em;
+	margin: 1rem 0;
 }
 
 ul {
@@ -68,6 +69,10 @@ a:hover {
 	color: #070c02;
 	font-size: 2em;
 	padding: 0 1em;
+}
+
+.project-gif-container{
+	text-align: center;
 }
 
  .project-gif {
