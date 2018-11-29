@@ -1,5 +1,6 @@
 @import url(fontawesome.min.css);
 @import url(header.css);
+@import url(nav.css);
 
 /*color palette*/
 
@@ -68,6 +69,7 @@ a {
 a:hover {
 	color: #f9fdff;
 	background-color: #ff4a1c;
+	transition: background 0.2s ease-in-out;
 }
 
 #banner {
@@ -95,4 +97,9 @@ a:hover {
  .project-gif {
 	width: 100%;
 	max-width: 40rem;
+}
+
+.bottom-line {
+	border-bottom: 3px solid #ff4a1c;
+	padding: 0 0 1rem 0;
 }

@@ -1,0 +1,23 @@
+.sticky-nav {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  background-color: #f9fdff;
+  padding: 1rem;
+}
+
+.horizontal-list {
+  font-size: 0.85rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.horizontal-list > li {
+  flex: 1 1 100%;
+  text-align: center;
+  line-height: 1.5rem;
+}
+
+.horizontal-list > li:not(:first-child) {
+  border-left: 3px solid #ff4a1c;
+}
