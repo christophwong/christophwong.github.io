@@ -30,17 +30,16 @@ ul {
 section {
 	padding-bottom: 2rem;
 }
+
 .wrapper {
 	width: 75%;
 	margin: auto;
 }
 
 @media screen and (max-width: 480px) {
-
 	.wrapper {
 		width: 90%
 	}
-
 }
 
 .project:not(:last-child) {
