@@ -1,0 +1,19 @@
+{
+  "name": "ctophwxyz",
+  "version": "1.0.0",
+  "description": "my site!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christophwong/christophwong.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/christophwong/christophwong.github.io/issues"
+  },
+  "homepage": "https://github.com/christophwong/christophwong.github.io#readme"
+}
