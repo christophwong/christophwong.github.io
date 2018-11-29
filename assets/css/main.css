@@ -68,6 +68,17 @@ a:hover {
 	background-color: #ff4a1c;
 }
 
+#banner {
+	color: #f9fdff;
+	background-color: #ff4a1c;
+}
+
+#banner:hover {
+	color: #f9fdff;
+	background-color: #000;
+	z-index: 0;
+}
+
 .foot-links {
 	text-decoration: none;
 	color: #070c02;
