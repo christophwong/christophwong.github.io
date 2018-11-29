@@ -32,6 +32,10 @@ section {
 	padding-bottom: 2rem;
 }
 
+#main-title{
+	margin: 0;
+}
+
 .wrapper {
 	width: 75%;
 	margin: auto;
