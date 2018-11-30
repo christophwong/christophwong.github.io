@@ -6,6 +6,14 @@
   padding: 1rem;
 }
 
+/* add pseudo element before scrollToTarget, so it offsets for navbar */
+:target::before {
+  content: "";
+  display: block;
+  height: 1.5rem; /* fixed header height*/
+  margin: 1.5rem 0 0; /* negative fixed header height */
+}
+
 .horizontal-list {
   font-size: 0.85rem;
   display: flex;
