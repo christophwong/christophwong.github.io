@@ -12,6 +12,15 @@ background white: f9fdff
 accent orange: ff4a1c
  */
 
+
+ /*Global settings*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 body {
 	background-color: #f9fdff;
 	font-family: Helvetica, sans-serif;
@@ -35,8 +44,21 @@ section {
 	padding-top: 0.2rem;
 }
 
+/* Header */
 #main-title{
 	margin: 0;
+}
+
+header {
+	/*padding: 1rem;*/
+}
+
+#main-content {
+	display: flex;
+	align-items:center;
+	justify-content:center;
+	flex-direction: column;
+	min-height: 100vh;
 }
 
 .wrapper {
@@ -101,5 +123,9 @@ a:hover {
 
 .bottom-line {
 	border-bottom: 3px solid #ff4a1c;
+	padding: 0 0 1rem 0;
+}
+
+.bottom-no-line {
 	padding: 0 0 1rem 0;
 }
