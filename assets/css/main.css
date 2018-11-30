@@ -88,7 +88,7 @@ a {
 	font-weight: 800;
 }
 
-a:hover {
+a:not(.no-effects):hover {
 	color: #f9fdff;
 	background-color: #ff4a1c;
 	transition: background 0.2s ease-in-out;
