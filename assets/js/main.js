@@ -6,6 +6,7 @@ const hideSection = (sectionId) => {
 const showSection = sectionId => {
   let sectionElement = document.querySelector(sectionId);
     sectionElement.hidden = false;
+    sectionElement.scrollTop = 0;
 }
 
 const hideElementWithChecks = prevElementId => {
