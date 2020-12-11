@@ -1,174 +1,294 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-  <title>Christoph Wong | Software Engineer | w to the xyz</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-</head>	
-<body>
-  <div id="main-content" class="wrapper">
-    <header>
-      <h1 class="bottom-no-line" id='main-title'><a class='no-effects' href="./index.html">Christoph Wong</a></h1>
-      <a id='banner' href="assets/pdf/resumepublic.pdf" target="_blank">
-        <h2>
-          Software Engineer For Hire
-        </h2>
-      </a>
-    </header>
-    <div class='content'>
-     <div class='sticky-nav'>
-      <ul class='menu horizontal-list'>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#work"><span>Work</span></a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
+  <head>
+    <title>Christoph Wong | Software Engineer | w to the xyz</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+      integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="main-content" class="wrapper">
+      <header>
+        <h1 class="bottom-no-line" id="main-title">
+          <a class="no-effects" href="./index.html">Christoph Wong</a>
+        </h1>
+        <a id="banner" href="assets/pdf/resumepublic.pdf" target="_blank">
+          <h2>Software Engineer For Hire</h2>
+        </a>
+      </header>
+      <div class="content">
+        <div class="sticky-nav">
+          <ul class="menu horizontal-list">
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li>
+              <a href="#work"><span>Work</span></a>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <section id="about" class="biography">
+          <h2 class="bottom-line">About</h2>
+          <p>
+            With more than three years of experience consulting clients across
+            private and public sectors, and building products for startups, I
+            have honed my skills as a Full Stack Software Engineer, and I am
+            currently looking for work in Seattle, WA.
+          </p>
+          <p>
+            I can take on responsibility at each stage of the software
+            development cycle confidently from inception to development, as well
+            as testing and deployment. I can effectively design and create
+            well-tested web applications in TypeScript, Ruby, JavaScript, and
+            Clojure.
+          </p>
+        </section>
+
+        <section id="projects">
+          <h2 class="bottom-line">Projects</h2>
+
+          <div class="project" id="project-cal-events">
+            <h3>Next.js calendar</h3>
+            <p>
+              <a href="https://gitlab.com/christophwong/calendar-events"
+                >Code (GitLab)</a
+              >
+            </p>
+            <p>
+              A simple web application built with <strong>React</strong> and
+              <strong>Next.js</strong>.
+            </p>
+            <div class="project-gif-container">
+              <img
+                id="calendar-events-gif"
+                class="project-gif"
+                src="./assets/images/cal-events.gif"
+                alt="user journey on cal events"
+              />
+            </div>
+          </div>
+
+          <div class="project" id="project-sickfits">
+            <h3>React Online Store - sickfits</h3>
+            <p>
+              <a href="https://sfits-react-prod.herokuapp.com"
+                >Live demo link</a
+              >
+              <span> | </span>
+              <a href="https://gitlab.com/christophwong/sick-fits"
+                >Code (GitLab)</a
+              >
+            </p>
+            <p>
+              A simple online market place built with
+              <strong>React</strong> frontend and
+              <strong>GraphQL</strong> backend.
+            </p>
+            <div class="project-gif-container">
+              <img
+                id="sickfits-gif"
+                class="project-gif"
+                src="./assets/images/sickfits-heroku-test.gif"
+                alt="user journey on SickFits"
+              />
+            </div>
+          </div>
+          <!-- https://gitlab.com/christophwong/create-create-react-app -->
+
+          <div class="project" id="project-ccra">
+            <h3>React App Starter</h3>
+            <p>
+              <a href="https://gitlab.com/christophwong/create-create-react-app"
+                >Code (GitLab)</a
+              >
+            </p>
+            <p>
+              I wanted to understand create-react-app better, so I configured a
+              React App with Babel and Webpack from scratch.
+            </p>
+          </div>
+
+          <div class="project" id="project-rchat">
+            <h3>Rails 5 Web Chat - rChat</h3>
+            <p>
+              <a href="https://rchat-action-cable-demo.herokuapp.com/"
+                >Live demo link</a
+              >
+              <span> | </span>
+              <a href="https://gitlab.com/christophwong/rchat">Code (GitLab)</a>
+            </p>
+            <p>
+              A <strong>Rails 5</strong> chat application to demonstrate the use
+              of the newly added <strong>ActionCable</strong> module.
+            </p>
+            <div class="project-gif-container">
+              <img
+                id="rchat-gif"
+                class="project-gif"
+                src="./assets/images/rchat-heroku-test.gif"
+                alt="user journey on R-Chat"
+              />
+            </div>
+          </div>
+
+          <div class="project" id="project-ctophw">
+            <h3>This Website - ctophw.xyz</h3>
+            <p>
+              <a href="https://ctophw.xyz">Live demo link</a>
+              <span> | </span>
+              <a href="https://github.com/christophwong/christophwong.github.io"
+                >Code (GitHub)</a
+              >
+            </p>
+            <p>
+              Simple webiste using HTML5, JavsScript, and CSS. Main objective of
+              this website is to show case my portfolio, but I also have fun
+              with little coding experiments here and there.
+            </p>
+          </div>
+        </section>
+
+        <section id="work">
+          <h2 class="bottom-line">Work</h2>
+          <p>
+            I am experienced in Agile Software Development, Test-Driven
+            Development, Continuous Integration Continuous Delivery (CI/CD). I
+            work with various technologies such as: TypeScript, JavaScript,
+            Clojure React, Redux, GraphQL, Docker, AWS, GoCD, Travis-CI, Ruby,
+            Java.
+          </p>
+          <div id="senior-place" class="project">
+            <h3>Senior Place</h3>
+            <a href="http://www.seniorplace.io/" target="_blank"
+              >Project Link</a
+            >
+            <p class="project-description">
+              A client relations management software in TypeScript where I was
+              also responsible for building the continuous integration and
+              continuous delivery pipeline.
+            </p>
+          </div>
+          <div id="thoughtworks-projects">
+            <div id="slc" class="project">
+              <h3>Student Loans Company</h3>
+              <a
+                href="https://info.thoughtworks.com/Public-Sector"
+                target="_blank"
+                >Client Testimony</a
+              >
+              <p class="project-description">
+                Build and maintain distributed system out of microservices,
+                replaced legacy Java code base with Clojure. Replaced legacy
+                "vanilla-js" front-end with one built with ReactJS. Led
+                live-issues team to keep production bugs from affecting
+                development speed.
+              </p>
+            </div>
+            <div id="gds" class="project">
+              <h3>Government Digital Service</h3>
+              <a
+                href="https://www.thoughtworks.com/clients/government-digital-service"
+                target="_blank"
+                >Client Testimony</a
+              >
+              <p class="project-description">
+                Led and mentored team of developers through each stage of full
+                stack web development, from ideation, business analysis,
+                development, to deployment and maintenance. Delivered internal
+                tools that helped staff writers publish to
+                <a href="https://www.gov.uk" target="_blank">gov.uk</a> website.
+              </p>
+            </div>
+            <div id="objective8" class="project">
+              <h3>Objective-8</h3>
+              <a href="https://github.com/d-cent/objective8" target="_blank"
+                >Project Link (GitHub)</a
+              >
+              <p class="project-description">
+                An
+                <a href="https://github.com/d-cent/objective8"
+                  >open source application for crowd sourcing and drafting
+                  policy written in Clojure</a
+                >. Part of
+                <a href="https://dcentproject.eu/" target="_blank"
+                  >D-Cent Project</a
+                >.
+              </p>
+            </div>
+            <div id="mooncake" class="project">
+              <h3>Mooncake</h3>
+              <a href="https://github.com/d-cent/mooncake" target="_blank"
+                >Project Link (GitHub)</a
+              >
+              <p class="project-dates"></p>
+              <p class="project-description">
+                An
+                <a href="https://github.com/d-cent/mooncake" target="_blank"
+                  >open source application for Secure notifications combined
+                  with w3 activity streams, written in Clojure</a
+                >. Part of
+                <a href="https://dcentproject.eu/" target="_blank"
+                  >D-Cent Project</a
+                >.
+              </p>
+            </div>
+            <div id="stonecutter" class="project">
+              <h3>Stonecutter</h3>
+              <a href="https://github.com/d-cent/stonecutter" target="_blank"
+                >Project Link (GitHub)</a
+              >
+              <p class="project-description">
+                An
+                <a href="https://github.com/d-cent/stonecutter" target="_blank"
+                  >open source OAuth server written in Clojure</a
+                >. Part of
+                <a href="https://dcentproject.eu/" target="_blank"
+                  >D-Cent Project</a
+                >.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section id="contact">
+          <h2 class="bottom-line">Contact</h2>
+          <footer class="wrapper">
+            <ul class="horizontal-list">
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.github.com/christophwong"
+                  class="foot-links fab fa-github"
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.linkedin.com/in/christoph-wong-76203788"
+                  class="foot-links fab fa-linkedin"
+                ></a>
+              </li>
+              <li>
+                <a
+                  target="_blank"
+                  href="https://www.twitter.com/ctophwong"
+                  class="foot-links fab fa-twitter"
+                ></a>
+              </li>
+            </ul>
+          </footer>
+        </section>
+      </div>
     </div>
-    <section id="about" class="biography">
-      <h2 class="bottom-line">About</h2>
-      <p>
-        With more than three years of experience consulting clients across private and public sectors, and building products for startups, I have honed my skills as a Full Stack Software Engineer, and I am currently looking for work in Seattle, WA.
-      </p>
-      <p>
-        I can take on responsibility at each stage of the software development cycle confidently from inception to development, as well as testing and deployment. I can effectively design and create well-tested web applications in TypeScript, Ruby, JavaScript, and Clojure.
-      </p>
-    </section>
-
-    <section id="projects">
-      <h2 class="bottom-line">Projects</h2>
-      
-      <div class='project' id='project-cal-events'>
-        <h3>Next.js calendar</h3>
-        <p>
-          <a href="https://gitlab.com/christophwong/calendar-events">Code (GitLab)</a>
-        </p>
-        <p>A simple web application built with <strong>React</strong> and <strong>Next.js</strong>.</p>
-        <div class='project-gif-container'>
-          <img id='calendar-events-gif' class='project-gif' src="./assets/images/cal-events.gif" alt="user journey on cal events">
-        </div>
-      </div>
-
-      <div class='project' id='project-sickfits'>
-        <h3>React Online Store - sickfits</h3>
-        <p>
-          <a href="https://sfits-react-prod.herokuapp.com">Live demo link</a>
-          <span> | </span>
-          <a href="https://gitlab.com/christophwong/sick-fits">Code (GitLab)</a>
-        </p>
-        <p>A simple online market place built with <strong>React</strong> frontend and <strong>GraphQL</strong> backend.</p>
-        <div class='project-gif-container'>
-          <img id='sickfits-gif' class='project-gif' src="./assets/images/sickfits-heroku-test.gif" alt="user journey on SickFits">
-        </div>
-      </div>
-      <!-- https://gitlab.com/christophwong/create-create-react-app -->
-
-      <div class='project' id='project-ccra'>
-        <h3>React App Starter</h3>
-        <p>
-          <a href="https://gitlab.com/christophwong/create-create-react-app">Code (GitLab)</a>
-        </p>
-        <p>I wanted to understand create-react-app better, so I configured a React App with Babel and Webpack from scratch.</p>
-      </div>
-
-      <div class='project' id='project-rchat'>
-        <h3>Rails 5 Web Chat - rChat</h3>
-        <p>
-          <a href="https://rchat-action-cable-demo.herokuapp.com/">Live demo link</a>
-          <span> | </span>
-          <a href="https://gitlab.com/christophwong/rchat">Code (GitLab)</a>
-        </p>
-        <p>A <strong>Rails 5</strong> chat application to demonstrate the use of the newly added <strong>ActionCable</strong> module.</p>
-        <div class='project-gif-container'>
-          <img id='rchat-gif' class='project-gif' src="./assets/images/rchat-heroku-test.gif" alt="user journey on R-Chat">
-        </div>
-      </div>
-
-      <div class='project' id='project-ctophw'>
-        <h3>This Website - ctophw.xyz</h3>
-        <p>
-          <a href="https://ctophw.xyz">Live demo link</a>
-          <span> | </span>
-          <a href="https://github.com/christophwong/christophwong.github.io">Code (GitHub)</a>
-        </p>
-        <p>Simple webiste using HTML5, JavsScript, and CSS. Main objective of this website is to show case my portfolio, but I also have fun with little coding experiments here and there.</p>
-      </div>
-    </section>
-
-    <section id="work">
-      <h2 class="bottom-line">Work</h2>
-        <p >
-          I am experienced in Agile Software Development, Test-Driven Development, Continuous Integration Continuous Delivery (CI/CD).
-          I work with various technologies such as: TypeScript, JavaScript, React, Redux, GraphQL, Docker, AWS, GoCD, Ruby, Rails, Clojure, Java.
-        </p>
-        <div id="senior-place" class="project">
-          <h3>Senior Place</h3>
-          <a href="http://www.seniorplace.io/" target="_blank">Project Link</a>
-          <p class="project-description">:wq
-            A client relations management software in TypeScript where I was also responsible for building the continuous integration and continuous delivery pipeline.
-          </p>
-        </div>
-      <div id='thoughtworks-projects'>
-        <div id="slc" class="project">
-          <h3>Student Loans Company</h3>
-          <a href="https://info.thoughtworks.com/Public-Sector" target="_blank">Client Testimony</a>
-          <p class="project-description">
-            Build and maintain distributed system out of microservices, replaced legacy Java code base with Clojure. Replaced legacy "vanilla-js" front-end with one built with ReactJS. Led live-issues team to keep production bugs from affecting development speed.
-          </p>
-        </div>
-        <div id="gds" class="project">
-          <h3>Government Digital Service</h3>
-          <a href="https://www.thoughtworks.com/clients/government-digital-service" target="_blank">Client Testimony</a>
-          <p class="project-description">
-            Led and mentored team of developers through each stage of full stack web development, from ideation, business analysis, development, to deployment and maintenance.
-            Delivered internal tools that helped staff writers publish to <a href="https://www.gov.uk" target="_blank">gov.uk</a> website.
-          </p>
-        </div>
-        <div id="objective8" class="project">
-          <h3>Objective-8</h3>
-          <a href="https://github.com/d-cent/objective8" target="_blank">Project Link (GitHub)</a>
-          <p class="project-description">
-            An <a href="https://github.com/d-cent/objective8">open source application for crowd sourcing and drafting policy written in Clojure</a>. Part of <a href="https://dcentproject.eu/" target="_blank">D-Cent Project</a>.
-          </p>
-        </div>
-        <div id="mooncake" class="project">
-          <h3>Mooncake</h3>
-          <a href="https://github.com/d-cent/mooncake" target="_blank">Project Link (GitHub)</a>
-          <p class='project-dates'></p>
-          <p class="project-description">
-            An <a href="https://github.com/d-cent/mooncake" target="_blank">open source application for Secure notifications combined with w3 activity streams, written in Clojure</a>. Part of <a href="https://dcentproject.eu/" target="_blank">D-Cent Project</a>.
-          </p>
-        </div>
-        <div id="stonecutter" class="project">
-          <h3>Stonecutter</h3>
-          <a href="https://github.com/d-cent/stonecutter" target="_blank">Project Link (GitHub)</a>
-          <p class="project-description">
-            An <a href="https://github.com/d-cent/stonecutter" target="_blank">open source OAuth server written in Clojure</a>. Part of <a href="https://dcentproject.eu/" target="_blank">D-Cent Project</a>.
-          </p>
-        </div>
-        
-      </div>
-    </section>
-
-    <section id="contact">
-      <h2 class="bottom-line">Contact</h2>
-      <footer class="wrapper">
-        <ul class="horizontal-list">
-          <li>
-            <a target="_blank" href="https://www.github.com/christophwong" class="foot-links fab fa-github"></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.linkedin.com/in/christoph-wong-76203788" class="foot-links fab fa-linkedin"></a>
-          </li>
-          <li>
-            <a target="_blank" href="https://www.twitter.com/ctophwong" class="foot-links fab fa-twitter"></a>
-          </li>
-        </ul>
-      </footer>
-    </section>
-  </div>
-</div>
-<script id='main-js' src="assets/js/main.js"></script>
-</body>
+    <script id="main-js" src="assets/js/main.js"></script>
+  </body>
 </html>
